@@ -13,7 +13,7 @@ cd carbon
 git checkout "tags/$VERSION"
 
 # Apply patches
-patch -p1 < "$ORIGPWD/patches/graphite-syslogger.patch"
+patch -p1 < "$ORIGPWD/patches/carbon_relay_syslog.patch"
 
 python setup.py install --install-data $TMP/prepare/var/lib/graphite --install-lib $TMP/prepare/opt/graphite/lib --prefix $TMP/prepare/opt/graphite
 cd ../prepare
