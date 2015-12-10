@@ -1,5 +1,5 @@
 # Run this in a path you don't care about, things may get deleted!
-VERSION="0.9.14"
+VERSION="0.9.15"
 BUILD="betable1"
 
 set -e -x
